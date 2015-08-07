@@ -1,24 +1,31 @@
 {
   "name": "vsep.example",
   "description": "A basic plugin for testing the Cloud9 IDE SDK plugin development workflow.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Andrew Faulring <faulring@cs.cmu.edu>",
-  "contributors": [{
-    "name": "Andrew Faulring",
-    "email": "faulring@cs.cmu.edu"
-  }],
+  "contributors": [
+    {
+      "name": "Andrew Faulring",
+      "email": "faulring@cs.cmu.edu"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:andrewfaulring/vsep.example.git"
   },
   "plugins": {
     "vsep.example": {
-      "message": "hello cloud"
+      "message": "hello cloud",
+      "packagePath": "plugins/vsep.example/vsep.example"
     }
   },
   "engines": {
     "c9": ">=3.0.0"
   },
-  "categories": [""],
-  "licenses": ["MIT"]
+  "categories": [
+    ""
+  ],
+  "licenses": [
+    "MIT"
+  ]
 }
