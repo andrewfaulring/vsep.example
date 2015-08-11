@@ -14,6 +14,12 @@ define(function(require, exports, module) {
 
         function load() {
             alert.show("VSEP Example plugin", "Loaded the VSEP Example plugin.", "Message: '" + options.message + "'\nCloud9 IDE version " + c9.version);
+            console.log("load");
+        }
+
+        function unload() {
+            alert.show("VSEP Example plugin", "Unloaded loaded the VSEP Example plugin.");
+            console.log("unload");
         }
 
         /***** Methods *****/
@@ -24,7 +30,9 @@ define(function(require, exports, module) {
             load();
         });
 
-        plugin.on("unload", function onUnload() {});
+        plugin.on("unload", function onUnload() {
+            unload();
+        });
 
         /***** Register and define API *****/
 
