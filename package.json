@@ -1,7 +1,6 @@
 {
   "name": "vsep.example",
-  "description": "A basic plugin for testing the Cloud9 IDE SDK plugin development workflow.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Andrew Faulring <faulring@cs.cmu.edu>",
   "contributors": [
     {
@@ -23,7 +22,7 @@
     "c9": ">=3.0.0"
   },
   "categories": [
-    ""
+    "miscellaneous"
   ],
   "licenses": [
     "MIT"
