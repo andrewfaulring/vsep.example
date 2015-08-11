@@ -18,4 +18,6 @@ A sample plugin for the [Variations to Support Exploratory Programming](http://w
 
 * **bold**
 * _italic_
+* “double quote”
+* ‘single quote’
 * `code`
